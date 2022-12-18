@@ -1,0 +1,146 @@
+*,
+*:before,
+*:after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+.__container{
+   box-sizing: content-box;
+   max-width: 1100px;
+   margin: 0 auto;
+}
+
+html,
+body {
+   height: 100%;
+   font-weight: 400;
+   font-size: 14px;
+font-family: 'Roboto', sans-serif;
+max-width: 1256px;
+}
+h1,h2{
+font-family: 'Roboto Slab', serif;font-weight: 700;
+}
+
+/*----------------------------шапка---------------------------------*/
+
+.menu-list{
+    display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  list-style: none;
+  padding: 20px 0 20px 0;
+}
+.header{
+   border-bottom: 1px solid rgb(0, 0, 0);
+}
+.menu-item a {
+   color: orange;
+}
+.menu-item {
+  flex: 1 1 auto;
+  margin: 10px;
+}
+ img{
+   max-width: 50px;
+   border: 1px solid rgb(0, 0, 0);
+}
+.hello__avatar img{
+   max-width: 300px;
+   margin-right: 100px;
+}
+.main__container
+   {
+	display: flex;
+   padding-top: 50px;
+}
+.main__title{
+   margin-bottom: 10px;
+   color: dimgray;
+}
+.main__text{
+   margin-bottom: 20px;
+}
+.main__aboutme{
+   margin-bottom: 7px;
+   color: dimgray; 
+   border: solid rgb(255, 172, 19);
+   padding-left: 20px;
+   border-width: 0 0 0 10px;
+}
+.aboutme__text {
+   margin-bottom: 12px;
+   padding-left: 30px;
+}
+.main__skills{
+   margin-bottom: 7px;
+   color: dimgray; 
+   border:solid rgb(255, 172, 19);
+   padding-left: 20px;
+ border-width: 0 0 0 10px;
+}
+.skills__text{
+   margin-bottom: 12px;
+   padding-left: 45px;
+}
+.main__experience{
+   margin-bottom: 7px;
+   color: dimgray;
+    border: solid rgb(255, 172, 19);
+    padding-left: 20px;
+    border-width: 0 0 0 10px;
+}
+.experience__text {
+   margin-bottom: 12px;
+   padding-left: 30px;
+}
+.main__hobby{
+margin-bottom: 7px;
+color: dimgray;
+ border: solid rgb(255, 172, 19);
+ padding-left: 20px;
+  border-width: 0 0 0 10px;
+}
+.hobby__text{
+margin-bottom: 12px;
+padding-left: 30px;
+}
+.main__how{
+margin-bottom: 7px;
+color: dimgray;
+border: solid rgb(255, 172, 19);
+padding-left: 20px;
+border-width: 0 0 0 10px;
+}
+.how__text{
+   padding-left: 30px;
+}
+.experience__certificate,.main__certificate{
+   display: inline;
+   margin:0 10px 10px 0;
+   padding-left: 30px;
+}
+.phone, .mail{
+color: orange;
+}
+
+.material-icons{
+   color: dimgray;
+   margin: 10px;
+}
+.footer__container{
+   	display: flex;
+   margin-top: 50px;
+   padding: 30px;
+   justify-content: center;
+   border-top:  1px solid rgb(0, 0, 0);
+}
+.footer__text{
+   color: dimgray;
+   margin-left: 30px;
+}
